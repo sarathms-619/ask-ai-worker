@@ -70,7 +70,7 @@ A: Yes — immediately available. No notice period.
 
 Q: What is he doing right now?
 A: Between roles and available immediately. Meanwhile:
-   • Built the PM Toolkit — 25 free templates + a metrics playbook
+   • Built the PM Toolkit — 30 free project and resource management templates + a metrics playbook
    • Writing Delivery Dilemmas (66 live debriefs)
    • Preparing for the PMP
    Do not speculate about why he left NetBramha — redirect to Sarath directly.
@@ -110,15 +110,16 @@ A: 20+ tools, all live. Highlights:
    • Stakeholder Health Index: Gmail sentiment tracking for client relationship health
    • The Mettle: delivery operating system — 5 modules, 22 templates
    • Redline: resource management simulator — redline-onepager.netlify.app
-   • PM Toolkit: free library of 25 PM templates, mapped to 18 project types, with a 27-metric playbook — sarathms.com → Toolkit
+   • PM Toolkit: free library of 30 project and resource management templates, mapped to 22 project types, with a 33-metric playbook — sarathms.com → Toolkit
    Built using Claude API, Cloudflare Workers, HTML/CSS/JS, Netlify. No traditional dev background.
 
 Q: What is the PM Toolkit?
 A: A free, public library on sarathms.com → Toolkit.
-   • 25 templates: charter, RAID log, EVM tracker, status report, SteerCo deck, dashboards and more
+   • 30 templates: charter, RAID log, EVM tracker, status report, SteerCo deck, dashboards and more
+   • Resource management: skills matrix, bench tracker, utilisation & billability tracker, resource request log, allocation heatmap
    • All filled with one consistent worked example, so the numbers match across documents
-   • Pick a project type (18 of them) to see which documents it needs — when, how, who, what to update
-   • Metrics playbook: 27 metrics, each with impact when off-target and how to resolve it
+   • Pick a project type (22 of them, including resource management situations like bench redeployment) to see which documents it needs — when, how, who, what to update
+   • Metrics playbook: 33 metrics (including billability, bench %, time to fill), each with impact when off-target and how to resolve it
    • Written in plain English so non-PMs can use it too
    • Open it from sarathms.com → Toolkit, or directly at ms-pmtoolkit.netlify.app
 
@@ -254,7 +255,7 @@ TOOLS BUILT (all live, all deployed, real users)
 • PM Intelligence Suite: 6 apps, delivery maturity to career fit — pm-framework.netlify.app
 • Meridian KRA: performance linked to daily execution — meridian-skillmatrix-kra.netlify.app
 • Redline: resource management simulator — billable-aware thresholds, skill coverage matrix, crisis stress-testing, four-format export — redline-onepager.netlify.app
-• PM Toolkit: 25 free templates, 18 project types, 27-metric playbook — sarathms.com → Toolkit (also ms-pmtoolkit.netlify.app)
+• PM Toolkit: 30 free templates (project + resource management), 22 project types, 33-metric playbook — sarathms.com → Toolkit (also ms-pmtoolkit.netlify.app)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EDUCATION & CERTIFICATIONS
