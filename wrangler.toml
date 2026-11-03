@@ -9,6 +9,10 @@ compatibility_date = "2025-09-01"
 # (Without this, every deploy wipes plain-text dashboard variables.)
 keep_vars = true
 
+# Run the Worker near Anthropic's API instead of near each visitor.
+[placement]
+mode = "smart"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "sarath-twin-db"

@@ -446,7 +446,8 @@ export default {
       });
       if (!res.ok) {
         const detail = (await res.text()).slice(0, 300);
-        throw new Error(`Claude ${res.status}: ${detail}`);
+        const reqId = res.headers.get("request-id") || "n/a";
+        throw new Error(`Claude ${res.status} (request-id ${reqId}, colo ${request.cf?.colo || "?"}): ${detail}`);
       }
       const data = await res.json();
       replyText = (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("\n").trim() || "No response generated.";
